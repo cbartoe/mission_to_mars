@@ -16,7 +16,7 @@
       <div class="jumbotron text-center">
         <h1>Mission to Mars</h1>
         <!-- Add a button to activate scraping script -->
-        <p><a class="btn btn-primary btn-lg" href="/scrape" role="button">Scrape New Data</a></p>
+        <p><a class="btn btn-success btn-lg" href="/scrape" role="button" background-color: #fff>Scrape New Data</a></p>
       </div>
 
       <!-- Add section for Mars News -->
@@ -26,7 +26,7 @@
             <div class="media-body">
               <h2>Latest Mars News</h2>
               <h4 class="media-heading">{{ mars.news_title }}</h4>
-              <p>{{ mars.news_paragraph }}</p>
+              <p class="lead">{{ mars.news_paragraph }}</p>
             </div>
           </div>
         </div>
